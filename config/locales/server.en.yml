@@ -1,0 +1,5 @@
+en:
+  site_settings:
+    Wootric_enabled: "Is this plugin awesome?"
+    Wootric_max_volume: "What is the maximum volume possible?"
+    Wootric_account_token: "Please enter your account token."

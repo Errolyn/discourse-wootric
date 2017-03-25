@@ -1,0 +1,11 @@
+
+plugins:
+  Wootric_enabled:
+    default: true
+    client: true
+  Wootric_max_volume:
+    default: 10
+    client: true
+  Wootric_account_token:
+    default: "Enter token"
+    client: true
