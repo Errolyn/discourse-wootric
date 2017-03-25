@@ -1,8 +1,0 @@
-
-plugins:
-  awesomeness_enabled:
-    default: true
-    client: true
-  awesomeness_max_volume:
-    default: 10
-    client: true
