@@ -14,7 +14,7 @@ export default {
           email: 'customer@example.com', // TODO: The current logged in user's email address. OPTIONAL
           external_id: 'abc123', // TODO: The current logged in user's unique ID in your system.  Reference field for external integrations only.  OPTIONAL
           created_at: 1234567890, // TODO: The current logged in user's sign-up date as a 10 digit Unix timestamp in seconds. OPTIONAL
-          account_token: this.siteSettings.Wootric_account_token // This is your unique account token. NPS-f153b52b
+          account_token: {{ siteSettings.Wootric_account_token }} // This is your unique account token. NPS-d0f3875c
         }
         window.wootric('run');
       });
