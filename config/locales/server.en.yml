@@ -1,5 +1,6 @@
 en:
   site_settings:
-    Wootric_enabled: "Is this plugin awesome?"
-    Wootric_max_volume: "What is the maximum volume possible?"
-    Wootric_account_token: "Please enter your account token."
+    wootric_enabled: "Is this plugin awesome?"
+    wootric_account_token: "Please enter your account token."
+    wootric_customer_domain: "Please enter your domain."
+    wootric_test_mode: "Check for survey immediately."

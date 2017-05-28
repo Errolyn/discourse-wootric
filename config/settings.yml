@@ -1,10 +1,13 @@
 plugins:
-  Wootric_enabled:
+  wootric_enabled:
     default: true
     client: true
-  Wootric_max_volume:
-    default: 10
-    client: true
-  Wootric_account_token:
+  wootric_account_token:
     default: "Enter token"
+    client: true
+  wootric_customer_domain:
+    default: "Example: discuss.example.com"
+    client: true
+  wootric_test_mode:
+    default: false
     client: true
