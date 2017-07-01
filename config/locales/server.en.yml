@@ -1,6 +1,6 @@
 en:
   site_settings:
-    wootric_enabled: "Is this plugin awesome?"
+    wootric_enabled: "Uncheck to disable Wootric survey."
     wootric_account_token: "Please enter your account token."
     wootric_customer_domain: "Please enter your domain."
     wootric_test_mode: "Check for survey immediately."
