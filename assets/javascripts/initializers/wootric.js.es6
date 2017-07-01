@@ -38,9 +38,9 @@ export default {
           // console.log("Get Script ran");
           window.wootricSettings = {
             survey_immediately: test_mode, // Shows survey immediately for testing purposes.  TODO: Comment out for production.
-            email: users_account, // TODO: The current logged in user's email address. OPTIONAL
+            email: users_account, // Link to the customer's user page. TODO: The current logged in user's email address. OPTIONAL
             //external_id: 'unknown', // TODO: The current logged in user's unique ID in your system.  Reference field for external integrations only.  OPTIONAL
-            created_at: Math.floor(Date.now() / 1000), //TODO: The current logged in user's sign-up date as a 10 digit Unix timestamp in seconds. OPTIONAL
+            created_at: Math.floor(Date.now() / 1000), //Timestamp of when the survey was taken. TODO: The current logged in user's sign-up date as a 10 digit Unix timestamp in seconds. OPTIONAL
             account_token: Discourse.SiteSettings.wootric_account_token // This is your unique account token. NPS-d0f3875c
           }
           window.wootric('run');

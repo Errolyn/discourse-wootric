@@ -1,6 +1,6 @@
 plugins:
   wootric_enabled:
-    default: true
+    default: false
     client: true
   wootric_account_token:
     default: "Enter token"
